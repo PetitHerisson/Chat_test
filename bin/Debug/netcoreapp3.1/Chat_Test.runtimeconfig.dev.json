@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/elodie/.dotnet/store/|arch|/|tfm|",
+      "/Users/elodie/.nuget/packages"
+    ]
+  }
+}

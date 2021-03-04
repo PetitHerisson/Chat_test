@@ -4,9 +4,10 @@ import style from '../../style'
 
 const Section1 = (props) => {
 
-    const [NumberOfConnection, setNumberOfConnection] = useState(-1)
+    //const [NumberOfConnection, setNumberOfConnection] = useState(1)
 
-
+    const { state, numOfConnection } = props;
+    
     return <Grid item xs={12} style={style.underline}>
         <Typography variant="h6" color="initial">
             Section 1:
@@ -14,12 +15,12 @@ const Section1 = (props) => {
         <List dense={true}>
             <ListItem >
                 <ListItemText
-                    primary={`Now has ${NumberOfConnection} connection to the hub`}
+                    primary={`Now has ${numOfConnection} connection to the hub`}
                 />
             </ListItem>
             <ListItem >
                 <ListItemText
-                    primary={`Hub stage: unimplement`}
+                    primary={`Hub stage: ${state}`}
                 />
             </ListItem>
         </List>

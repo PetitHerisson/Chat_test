@@ -9,6 +9,7 @@
     <DockerfileContext>.</DockerfileContext>
     <AssemblyName>Chat_Test</AssemblyName>
     <PackageId>Chat_Test</PackageId>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
